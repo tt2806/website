@@ -583,6 +583,10 @@ body:not(.mobile) footer a:hover {
     .text p, a {
         color: #777;
     }
+
+    .message > h4 {
+        color: white;
+    }
 }
 
 .popup {
@@ -623,9 +627,6 @@ body:not(.mobile) footer a:hover {
     border-radius: 32px;
     font-family: 'museo sans';
     font-size: 20px;
-}
-
-.venmo-center {
     text-align: center;
 }
 
