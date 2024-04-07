@@ -1,13 +1,13 @@
 # Changelog
 This file demonstrates all the recent updates of the website, from when the source code was uploaded.
 
-## April 6, 2024
+## April 6-7, 2024
 - Fixed non-centered buttons
 - Fixed button width
 - Removed the climate clock
 - Added a picture to the README file
 
-## January 28, 2024
+## January 28-29, 2024
 - Completed the Soccer category
 - I decided the Creative Commons license name was too long so I shortened it
 
