@@ -1,13 +1,18 @@
 # Changelog
 This file demonstrates all the recent updates of the website, from when the source code was uploaded.
 
-## April 6, 2024
+## April 19, 2024
+- Added a complete makeover to the GTA page. Updates include:
+- New style, similar to the main page
+- Used EmulatorJS to emulate all games. No more imports from other websites!
+
+## April 7, 2024
 - Fixed non-centered buttons
 - Fixed button width
 - Removed the climate clock
 - Added a picture to the README file
 
-## January 28, 2024
+## January 29, 2024
 - Completed the Soccer category
 - I decided the Creative Commons license name was too long so I shortened it
 
