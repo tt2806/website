@@ -28,7 +28,7 @@
     ascent-override: 94%;
     descent-override:0%;
     line-gap-override:0%;
-    src: url(museo-sans-500.woff2) format("woff2")
+    src: url(../museo-sans-500.woff2) format("woff2")
 }
 
 @font-face {
@@ -39,7 +39,7 @@
     ascent-override:94%;
     descent-override:0%;
     line-gap-override:0%;
-    src: url(museo-sans-700.woff2) format("woff2")
+    src: url(../museo-sans-700.woff2) format("woff2")
 }
 
 * {

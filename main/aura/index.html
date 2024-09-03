@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="title">
+        <h1>Aura to Social Credits Converter</h1>
+        <p class="subtitle">Tired of aura? Want to convert to something more original?<br>See how much your aura is worth in social credits.</p>
+        <br>
+        <p>100 Aura = 15 Social Credits</p>
+    </div>
+
+    <div class="converter">
+        <div class="input-group">
+            <div>
+                <input type="number" id="inputValue" placeholder="Enter value">
+                <span class="currency" id="unitFrom">Aura</span>
+            </div>
+            <br>
+            <button class="switch" onclick="switchUnits()">
+                <span class="material-symbols-outlined">compare_arrows</span>
+            </button>
+            <br>
+            <div>
+                <input type="text" id="resultValue" placeholder="Result" readonly>
+                <span class="currency" id="unitTo">Social Credits</span>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>

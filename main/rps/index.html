@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>RPS by TT</title>
+</head>
+<body>
+    <h1>Rock Paper Scissors by TT</h1>
+    <p>A bot has challenged you to a game of RPS. <strong>Rock</strong> beats <strong>Scissors</strong>, <strong>Scissors</strong> beat <strong>Paper</strong>, and <strong>Paper</strong> beats <strong>Rock.</strong></p>
+    <div class="scoreboard">
+        <h2>Scoreboard</h2>
+        <table>
+            <tbody>
+                <tr>
+                    <td id="humanScore">0</td>
+                    <td id="computerScore">0</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>You</th>
+                    <th>Bot</th>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <h2>Choose your option.</h2>
+    <button id="rock">Rock</button>
+    <button id="paper">Paper</button>
+    <button id="scissors">Scissors</button>
+    <div id="status"></div>
+    <div id="reset-score">
+        <button onclick="reset()">Reset scoreboard</button>
+    </div>
+    <a id="button-corner" href="../../index.html"><button>Back</button></a>
+</body>
+<script src="script.js" charset="utf-8"></script>
+</html>
