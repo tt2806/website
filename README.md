@@ -2,7 +2,7 @@
     <img src="images/readmelogo.png">
 </p>
 
-# TT's Unblocked Games
+# TT's Creations
 
 Welcome! I have now published the source code of my website to GitHub. Feel free to look around and see how it is made. I have also included a link to the website in the about section.
 Alternatively, if you cannot see the link, you can also click [here](https://ttunblocked.netlify.app) to go to the website.
