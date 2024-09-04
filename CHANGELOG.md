@@ -1,10 +1,15 @@
 # Changelog
 This file demonstrates all the recent updates of the website, from when the source code was uploaded.
 
+## September 4, 2024
+- Match 3 section of games is complete
+
+## September 3, 2024
+- All domains are now combined into one domain
+
 ## April 19, 2024
 - Added a complete makeover to the GTA page. Updates include:
 - New style, similar to the main page
-- Used EmulatorJS to emulate all games. No more imports from other websites!
 
 ## April 7, 2024
 - Fixed non-centered buttons
@@ -30,5 +35,5 @@ The following were going to be added back in November but got delayed:
 - Removed Whack A Mole and 2048, for a new game to be released in their spots
 - Fixed images and sort of revamped the website
 
-TT's Unblocked is a library of many games you can play in schools without it being blocked!
+TT's Creations is a not only a library of many games you can play in schools without it being blocked, but also some of the games made by TT!
 Made by Thiago Techera. More updates coming soon!
