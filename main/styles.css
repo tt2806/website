@@ -570,6 +570,10 @@ body:not(.mobile) footer a:hover {
         color: #fafafa
     }
 
+    .message {
+        border: 1px solid white;
+    }
+
     .text p, a {
         color: #999
     }
@@ -619,7 +623,6 @@ body:not(.mobile) footer a:hover {
     font-family: 'museo sans';
     font-style: italic;
     border-radius: 10px;
-    border: 1px solid white;
     margin-bottom: 15px;
 }
 
