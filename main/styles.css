@@ -645,3 +645,19 @@ body:not(.mobile) footer a:hover {
     margin: 20px;
     margin-top: 10px;
 }
+
+.social-media {
+    margin-top: 10px;
+    color: #777;
+    font-size: 1.3em;
+}
+
+.icon-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.social-media:hover {
+    color: #888;
+}
