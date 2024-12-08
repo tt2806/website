@@ -89,10 +89,6 @@ main {
     margin-top: 0;
 }
 
-h1.title {
-    font-family: 'Source Sans 3';
-}
-
 .location {
     font-family: 'Signpainter';
 }
@@ -213,4 +209,13 @@ p {
     margin-top: 10px;
     width: 15px;
     height: 15px;
+}
+
+.section {
+    margin-top: 30px;
+    margin-bottom: 7px;
+}
+
+html {
+    scroll-behavior: smooth;
 }
