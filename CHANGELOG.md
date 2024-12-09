@@ -1,6 +1,12 @@
 # Changelog
 This file demonstrates all the recent updates of the website, from when the source code was uploaded.
 
+## December 9, 2024
+- Minor changes to the checklist
+
+## December 8, 2024
+- Added GTA Online checklist
+
 ## September 4, 2024
 - Match 3 section of games is complete
 
