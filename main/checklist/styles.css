@@ -216,6 +216,30 @@ p {
     margin-bottom: 7px;
 }
 
-html {
-    scroll-behavior: smooth;
+.section-with-note {
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.see-note {
+    font-weight: bold;
+    color: yellow;
+}
+
+.notes-list {
+    margin-bottom: 7px;
+}
+
+#highlight {
+    background-color: yellow;
+    transition: background-color 0.5s ease;
+}
+
+.flash {
+    animation: flash-animation 0.5s infinite alternate;
+}
+
+@keyframes flash-animation {
+    from { background-color: rgb(212, 212, 0); }
+    to { background-color: rgba(0, 0, 0, 0); }
 }

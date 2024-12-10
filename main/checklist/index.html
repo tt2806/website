@@ -9,7 +9,6 @@
     <link rel="apple-touch-icon-preappposed" href="images/favicon.ico">
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
     <script src="script.js" defer></script>
     <title>Checklist for GTA Online</title>
 </head>
@@ -98,7 +97,7 @@
 
         <h2 class="section"><input type="checkbox" class="property checkbox" data-optional="false"> <img class="gif" src="images/properties/Safehouse-Heist.png"> High-End Apartment - <span class="misc location">Eclipse Towers</span> - <span class="cash">$1,000,000 to $4,000,000</span></h2>
     
-        <h2 style="margin-top: 30px; margin-bottom: 0;"><input type="checkbox" class="property checkbox" data-optional="false" onchange="toggleRenovations(this)"> <img class="gif" src="images/properties/Office-colors.gif"> Office - <span class="misc location">Maze Bank West or Tower</span> - <span class="cash">$2,620,000</span></h2>
+        <h2 class="section-with-note"><input type="checkbox" class="property checkbox" data-optional="false" onchange="toggleRenovations(this)"> <img class="gif" src="images/properties/Office-colors.gif"> Office - <span class="misc location">Maze Bank West or Tower</span> - <span class="cash">$2,620,000</span></h2>
         <div class="renovations">
             <h3 style="color: yellow; margin-bottom: 7px;">Maze Bank West FREE with Starter Pack</h3>
             <p><input type="checkbox" class="small checkbox" data-optional="true" disabled> Gun Locker <span class="misc">(Optional)</span> - <span class="cash">$520,000</span></p>
@@ -106,7 +105,7 @@
             <p><input type="checkbox" class="small checkbox" data-optional="false" disabled> Accommodation - <span class="cash">$795,000</span></p>
         </div>
 
-        <h2 style="margin-top: 30px; margin-bottom: 0;"><input type="checkbox" class="property checkbox" data-optional="true" onchange="toggleRenovations(this)"> <img class="gif" src="images/properties/Garage.png"> Office Garage <span class="misc">(Optional)</span> - <span class="cash">$1,150,000 to $2,050,000</span></h2>
+        <h2 class="section-with-note"><input type="checkbox" class="property checkbox" data-optional="true" onchange="toggleRenovations(this)"> <img class="gif" src="images/properties/Garage.png"> Office Garage <span class="misc">(Optional)</span> - <span class="cash">$1,150,000 to $2,050,000</span></h2>
         <div class="renovations">
             <h3 style="color: yellow; margin-bottom: 7px;">Price above is only for first floor</h3>
             <p><input type="checkbox" class="small checkbox" data-optional="true" disabled> 2nd Garage Floor <span class="misc">(Optional)</span> - <span class="cash">$855,000 to $1,755,000</span></p>
@@ -120,6 +119,8 @@
             <p><input type="checkbox" class="small checkbox" data-optional="false" disabled> Accommodation - <span class="cash">$275,000</span></p>
             <p><input type="checkbox" class="small checkbox" data-optional="false" disabled> Vehicle Workshop - <span class="cash">$800,000</span></p>
         </div>
+
+        <h3 class="section">New business "Garment Factory" has been released on Dec 10! Coming soon to the checklist.</h3>
 
         <h2 class="section"><input type="checkbox" class="property checkbox" data-optional="false" onchange="toggleRenovations(this)"> <img class="gif" src="images/service-vehicles/Kosatka.png"> Kosatka - <span class="cash">$2,200,000</span></h2>
         <div class="renovations">
@@ -165,7 +166,7 @@
             <p><input type="checkbox" class="small checkbox" data-optional="false" disabled> All Upgrades (bought in The Open Road) - <span class="cash">$1,895,000</span></p>
         </div>
 
-        <h2 style="margin-top: 30px; margin-bottom: 0;"><input type="checkbox" class="property checkbox" data-optional="false" onchange="toggleRenovations(this)"> <img class="gif" src="images/properties/CounterfeitCashFactory-colors.gif"> Counterfeit Cash Factory - <span class="misc location">Grand Senora</span> - <span class="cash">$845,000</span></h2>
+        <h2 class="section-with-note"><input type="checkbox" class="property checkbox" data-optional="false" onchange="toggleRenovations(this)"> <img class="gif" src="images/properties/CounterfeitCashFactory-colors.gif"> Counterfeit Cash Factory - <span class="misc location">Grand Senora</span> - <span class="cash">$845,000</span></h2>
         <div class="renovations">
             <h3 style="color: yellow; margin-bottom: 7px;">Grand Senora FREE with Starter Pack</h3>
             <p><input type="checkbox" class="small checkbox" data-optional="false" disabled> All Upgrades (bought in The Open Road) - <span class="cash">$1,609,000</span></p>
@@ -190,7 +191,7 @@
         <h2 style="margin-bottom: 7px;">Warstock Cache & Carry</h2>
         <p><input type="checkbox" class="small checkbox" data-optional="false"> <img src="images/vehicles/PersonalVehicle.png" class="gif"> Gauntlet Interceptor - <span class="cash">$4,065,000 to $5,420,000</span></p>
         <p><input type="checkbox" class="small checkbox" data-optional="false"> <img src="images/vehicles/Raiju.png" class="gif"><img src="images/vehicles/Raiju-flying.png" class="gif"> F-160 Raiju - <span class="cash">$5,141,000 to $6,855,000</span></p>
-        <p><input type="checkbox" class="small checkbox" data-optional="false"> <img src="images/vehicles/AcidLab.png" class="gif"> Acid Lab - <span class="cash">$750,000</span> - <span style="font-weight: bold; color: yellow;">See Note 1 <input type="button" onclick="document.getElementById('note-1').scrollIntoView()" value="Scroll down"></p>
+        <p><input type="checkbox" class="small checkbox" data-optional="false"> <img src="images/vehicles/AcidLab.png" class="gif"> Acid Lab - <span class="cash">$750,000</span> - <span class="see-note">See Note 1 <input type="button" onclick="scrollAndHighlight('note-1')" value="Scroll down"></p>
         <p><input type="checkbox" class="small checkbox" data-optional="false"> <img src="images/vehicles/Toreador.png" class="gif"> Toreador - <span class="cash">$4,250,000</span></p>
         <p><input type="checkbox" class="small checkbox" data-optional="false"> <img src="images/vehicles/OppressorMkII.png" class="gif"> Oppressor Mk II - <span class="cash">$6,000,000 to $8,000,000</span></p>
         <p><input type="checkbox" class="small checkbox" data-optional="true"> <img src="images/vehicles/Strikeforce.png" class="gif"> B-11 Strikeforce <span class="misc">(Optional)</span> - <span class="cash">$3,800,000</span></p>
@@ -201,15 +202,15 @@
         <p><input type="checkbox" class="small checkbox" data-optional="false"> <img src="images/vehicles/PersonalVehicle.png" class="gif"> Duke O' Death - <span class="cash">FREE</span></p>
 
         <h2 class="section">Legendary Motorsports</h2>
-        <p style="margin-bottom: 7px;"><input type="checkbox" class="small checkbox" data-optional="false"> <img id="fclinton" src="images/FClintonLogoDark.png" class="gif"> Any Imani Tech Vehicle - <span class="cash">$1,650,000 to $3,750,000</span></p>
-        <h3 style="color: yellow;">Ocelot Virtue FREE after completing Last Dose missions</h3>
+        <p><input type="checkbox" class="small checkbox" data-optional="false"> <img id="fclinton" src="images/FClintonLogoDark.png" class="gif"> Any Imani Tech Vehicle - <span class="cash">$1,650,000 to $3,750,000</span> - <span class="see-note">See Note 2 <input type="button" onclick="scrollAndHighlight('note-2')" value="Scroll down"></span></p>
 
         <h2 class="section">Southern San Andreas Super Autos</h2>
         <p><input type="checkbox" class="small checkbox" data-optional="false"> <img src="images/vehicles/PersonalVehicle.png" class="gif"> Karin Kuruma (Armored) - <span class="cash">$525,000 to $698,250</span></p>
         <p><input type="checkbox" class="small checkbox" data-optional="false"> <img id="fclinton" src="images/FClintonLogoDark.png" class="gif"> Any Imani Tech Vehicle - <span class="cash">$1,465,000 to $2,150,000</span></p>
 
         <h2 class="section">Notes</h2>
-        <p id="note-1"><b>1</b> - You can buy a Brickade 6x6 for <span class="cash">$1,450,000</span> on Warstock, or you can obtain it by completing all the First Dose missions. To set it up as an Acid Lab, it costs <span class="cash">$750,000</span>.</p>
+        <p id="note-1" class="notes-list"><b>1</b> - You can buy a Brickade 6x6 for <span class="cash">$1,450,000</span> on Warstock, or you can obtain it by completing all the First Dose missions. To set it up as an Acid Lab, it costs <span class="cash">$750,000</span>.</p>
+        <p id="note-2"><b>2</b> - The Ocelot Virtue can be modified with Imani Tech. You get it as a prize for completing every Last Dose mission.</p>
         <div class="progress-container">
             <div class="progress-bar-container">
                 <div class="progress-bar" id="progress-bar"></div>

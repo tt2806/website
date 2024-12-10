@@ -121,3 +121,20 @@ optionalItemsCheckbox.addEventListener('change', () => {
     updateProgressFromCheckboxes()
     saveState()
 })
+
+function scrollAndHighlight(elementId) {
+    var element = document.getElementById(elementId);
+
+    // Scroll into view
+    element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+    // Highlight and flash the text
+    element.classList.add('highlight');
+    element.classList.add('flash');
+
+    // Remove highlight and flash after a short duration
+    setTimeout(function() {
+        element.classList.remove('highlight');
+        element.classList.remove('flash');
+    }, 3500);
+}
