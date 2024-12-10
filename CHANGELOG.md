@@ -1,6 +1,9 @@
 # Changelog
 This file demonstrates all the recent updates of the website, from when the source code was uploaded.
 
+## December 10, 2024
+- Minor changes to the checklist
+
 ## December 9, 2024
 - Minor changes to the checklist
 
