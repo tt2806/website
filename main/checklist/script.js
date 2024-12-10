@@ -136,5 +136,5 @@ function scrollAndHighlight(elementId) {
     setTimeout(function() {
         element.classList.remove('highlight');
         element.classList.remove('flash');
-    }, 3500);
+    }, 4000);
 }
