@@ -661,3 +661,9 @@ body:not(.mobile) footer a:hover {
 .social-media:hover {
     color: #888;
 }
+
+@media (max-width: 600px) {
+    .button-container {
+        flex-direction: column;
+    }
+}
