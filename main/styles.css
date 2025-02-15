@@ -670,6 +670,14 @@ body:not(.mobile) footer a:hover {
     margin: 0 auto;
 }
 
+.tools-btn-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+    width: 27.5%;
+    margin: 0 auto;
+}
+
 .backbtn, .backbtn-done {
     width: 100%;
     margin-top: 10px;
@@ -677,7 +685,7 @@ body:not(.mobile) footer a:hover {
     font-size: large;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .button-container {
         grid-template-columns: repeat(2, 1fr);
     }
