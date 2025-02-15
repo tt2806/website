@@ -664,11 +664,12 @@ body:not(.mobile) footer a:hover {
 
 @media (max-width: 600px) {
     .button-container {
-        display: flex;
-        flex-direction: column;
+        display: block;
+        text-align: center;
     }
 
     .button-container > button {
+        display: block;
         width: 100%;
     }
 }
