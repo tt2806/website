@@ -663,13 +663,8 @@ body:not(.mobile) footer a:hover {
 }
 
 @media (max-width: 600px) {
-    .button-container {
-        display: block;
-        text-align: center;
-    }
-
-    .button-container > button {
-        display: block;
-        width: 100%;
+    .backbtn, .backbtn-done {
+        font-size: 1em;
+        padding: .8em 1.5em;
     }
 }
