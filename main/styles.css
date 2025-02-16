@@ -685,8 +685,12 @@ body:not(.mobile) footer a:hover {
     font-size: large;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
     .button-container {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .tools-btn-container {
+        width: 50vw;
     }
 }
