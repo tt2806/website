@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="msapplication-TileImage" content="images/favicon.ico">
+    <meta property="og:image" content="images/favicon.ico">
+    <link rel="image_src" href="images/favicon.ico">
+    <link rel="apple-touch-icon-preappposed" href="images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Checklist for GTA Online</title>
+</head>
+<body>
+    <div class="overlay">
+        <h2 style="text-align: center;">Rotate your screen sideways for the best experience. WARNING: This website is best viewed on a tablet or computer</h2>
+    </div>
+    <header>
+        <div class="header-content">
+            <h1 class="title">Checklist for <img class="moved" src="images/gtaonline.svg" alt="gta online logo" width="314" height="36"></h1>
+            <div class="buttons">
+                <button class="clear-button" onclick="clearList()">Clear List</button>
+            </div>
+        </div>
+        <hr>
+    </header>
+    <main style="padding-top: 85px;">
+        <h1 style="margin-bottom: 7px;">Properties and Service Vehicles</h1>
+        <h3 style="margin-bottom: 0;"><i>Please remember that prices could change in-game due to a sale.</i></h3>
+        <h3 style="margin-bottom: 0;"><i>Not made by Rockstar. These are recommendations.</i></h3>
+        <h3 style="margin-bottom: 21.440px;"><i>This website is best viewed on a tablet or computer.</i></h3>
+
+        <h2 style="margin: 0"><input type="checkbox" class="property checkbox" data-optional="false" onchange="toggleRenovations(this)"> <img class="gif" src="images/properties/Clubhouse-colors.gif"> Clubhouse - <span class="misc location">Any Location</span> - <span class="cash">$200,000 to $495,000</span></h2>
+        <div class="renovations">
+            <h3 style="color: yellow;">See Note 1 <input type="button" onclick="scrollAndHighlight('note-1')" value="Scroll down"></h3>
+            <p><input type="checkbox" class="small checkbox" data-optional="true" disabled> Gun Locker <span class="misc">(Optional)</span> - <span class="cash">$320,000</span></p>
+            <p><input type="checkbox" class="small checkbox" data-optional="false" disabled> Custom Bike Shop - <span class="cash">$530,000</span></p>
+        </div>
+
+        <h2 class="section"><input type="checkbox" data-optional="false" class="property checkbox" onchange="toggleRenovations(this)"> <img class="gif" src="images/properties/Bunker-colors.gif"> Bunker - <span class="misc location">Chumash or Lago Zancudo</span> - <span class="cash">$1,550,000 to $1,650,000</span></h2>
+        <div class="renovations">
+            <p><input type="checkbox" class="small checkbox" data-optional="false" disabled> All Upgrades (bought in Disruption Logistics) - <span class="cash">$2,104,500</span></p>
+            <p><input type="checkbox" class="small checkbox" data-optional="false" disabled> Personal Quarters - <span class="cash">$265,000</span></p>
+            <p><input type="checkbox" class="small checkbox" data-optional="true" disabled> Shooting Range <span class="misc">(Optional)</span> - <span class="cash">$740,000 to $845,000</span></p>
+            <p><input type="checkbox" class="small checkbox" data-optional="true" disabled> Gun Locker <span class="misc">(Optional)</span> - <span class="cash">$175,000</span></p>
+            <p><input type="checkbox" class="small checkbox" data-optional="true" disabled> Transportation <span class="misc">(Optional)</span> - <span class="cash">$85,000 to $120,000</span></p>
+        </div>
+
+        <h2 class="section"><input type="checkbox" data-optional="false" class="property checkbox" onchange="toggleRenovations(this)"> <img class="gif" src="images/properties/Hangar-colors.gif"> Hangar - <span class="misc location">Fort Zancudo 3497</span> - <span class="cash">$2,085,000</span></h2>
+        <div class="renovations">
+            <p><input type="checkbox" class="small checkbox" data-optional="false" disabled> Living Quarters - <span class="misc">Any Style</span> - <span class="cash">$235,000 to $375,000</span></p>
+            <p><input type="checkbox" class="small checkbox" data-optional="false" disabled> Workshop - <span class="cash">$1,150,000</span></p>
+        </div>
+
+        <h2 class="section"><input type="checkbox" data-optional="false" class="property checkbox" onchange="toggleRenovations(this)"> <img class="gif" src="images/properties/Facility-colors.gif"> Facility - <span class="misc location">Sandy Shores</span> - <span class="cash">$2,740,000</span></h2>
+        <div class="renovations">
+            <p><input type="checkbox" class="small checkbox" data-optional="false" disabled> Sleeping Quarters - <span class="misc">Any Style</span> - <span class="cash">$150,000 to $290,000</span></p>
+            <p><input type="checkbox" class="small checkbox" data-optional="true" disabled> Security Room <span class="misc">(Optional)</span> - <span class="cash">$775,000</span></p>
+            <p><input type="checkbox" class="small checkbox" data-optional="true" disabled> Orbital Cannon <span class="misc">(Optional)</span> - <span class="cash">$900,000</span></p>
+        </div>
+
+        <h2 class="section"><input type="checkbox" class="property checkbox" data-optional="false" onchange="toggleRenovations(this)"> <img class="gif" src="images/properties/Nightclub-colors.gif"> Nightclub - <span class="misc location">Anywhere in Vinewood</span> - <span class="cash">$1,670,000 to $1,700,000</span></h2>
+        <div class="renovations">
+            <p><input type="checkbox" class="small checkbox" data-optional="false" disabled> All Upgrades (bought in Nightclub Management) - <span class="cash">$2,595,000</span></p>
+            <p><input type="checkbox" class="small checkbox" data-optional="true" disabled> Light Rig <span class="misc">(Optional)</span> - <span class="cash">$88,000 to $295,000</span></p>
+            <p><input type="checkbox" class="small checkbox" data-optional="false" disabled> Max Storage - <span class="cash">$1,702,550</span></p>
+            <p><input type="checkbox" class="small checkbox" data-optional="true" disabled> Max Garage <span class="misc">(Optional)</span> - <span class="cash">$441,350</span></p>
+            <p><input type="checkbox" class="small checkbox" data-optional="true" disabled> Dancers <span class="misc">(Optional)</span> - <span class="cash">$213,500 to $255,000</span></p>
+            <p><input type="checkbox" class="small checkbox" data-optional="true" disabled> Dry Ice <span class="misc">(Optional)</span> - <span class="cash">$345,000</span></p>
+        </div>
+
+        <h2 class="section"><input type="checkbox" class="property checkbox" data-optional="false" onchange="toggleRenovations(this)"> <img class="gif" src="images/properties/Arcade.png"> Arcade - <span class="misc location">La Mesa or Vinewood</span> - <span class="cash">$1,875,000 to $2,530,000</span></h2>
+        <div class="renovations">
+            <p><input type="checkbox" class="small checkbox" data-optional="false" disabled> Personal Quarters - <span class="cash">$150,000</span></p>
+             <p><input type="checkbox" class="small checkbox" data-optional="true" disabled> High Score Screens <span class="misc">(Optional)</span> - <span class="cash">$295,000</span></p>
+            <p><input type="checkbox" class="small checkbox" data-optional="true" disabled> Garage <span class="misc">(Optional)</span> - <span class="cash">$215,000</span></p>
+            <p><input type="checkbox" class="small checkbox" data-optional="false" disabled> Master Control Terminal - <span class="cash">$1,740,000</span></p>
+            <p><input type="checkbox" class="small checkbox" data-optional="true" disabled> Drone Station <span class="misc">(Optional)</span> - <span class="cash">$1,460,000</span></p>
+        </div>
+
+        <h2 class="section"><input type="checkbox" class="property checkbox" data-optional="false" onchange="toggleRenovations(this)"> <img class="gif" src="images/properties/AutoShop-colors.gif"> Auto Shop - <span class="misc location">La Mesa</span> - <span class="cash">$1,920,000</span></h2>
+        <div class="renovations">
+            <p><input type="checkbox" class="small checkbox" data-optional="true" disabled> Staff Members <span class="misc">(Optional)</span> - <span class="cash">$385,000 to $770,000</span></p>
+            <p><input type="checkbox" class="small checkbox" data-optional="false" disabled> Personal Quarters - <span class="cash">$340,000</span></p>
+            <p><input type="checkbox" class="small checkbox" data-optional="false" disabled> Extra Car Lift - <span class="cash">$650,000</span></p>
+            <p><input type="checkbox" class="small checkbox" data-optional="false" disabled> LS Car Meet Membership - <span class="cash">$50,000</span></p>
+        </div>
+
+        <h2 class="section"><input type="checkbox" class="property checkbox" data-optional="false" onchange="toggleRenovations(this)"> <img class="gif" src="images/properties/SalvageYard.png"> Salvage Yard - <span class="misc location">Strawberry</span> - <span class="cash">$2,570,000</span></h2>
+        <div class="renovations">
+            <p><input type="checkbox" class="small checkbox" data-optional="false" disabled> Trade Rates - <span class="cash">$450,000</span></p>
+            <p><input type="checkbox" class="small checkbox" data-optional="false" disabled> Tow Truck - <span class="misc">Any Style</span> - <span class="cash">$650,000 to $1,100,000</span></p>
+            <p><input type="checkbox" class="small checkbox" data-optional="false" disabled> Wall Safe - <span class="cash">$750,000</span></p>
+            <p><input type="checkbox" class="small checkbox" data-optional="true" disabled> Staff Members <span class="misc">(Optional)</span> - <span class="cash">$625,000</span></p>
+        </div>
+
+        <h2 class="section"><input type="checkbox" class="property checkbox" data-optional="false" onchange="toggleRenovations(this)"> <img class="gif" src="images/properties/BailOffice.png"> Bail Office - <span class="misc location">Downtown Vinewood</span> - <span class="cash">$2,620,000</span></h2>
+        <div class="renovations">
+            <p><input type="checkbox" class="small checkbox" data-optional="true" disabled> Agents <span class="misc">(Optional)</span> - <span class="cash">$750,000 each</span></p>
+            <p><input type="checkbox" class="small checkbox" data-optional="false" disabled> Personal Quarters - <span class="cash">$295,000</span></p>
+            <p><input type="checkbox" class="small checkbox" data-optional="true" disabled> Gun Locker <span class="misc">(Optional)</span> - <span class="cash">$175,000</span></p>
+            <p><input type="checkbox" class="small checkbox" data-optional="false" disabled> Armor Plating - <span class="cash">$125,000</span></p>
+        </div>
+
+        <h2 class="section"><input type="checkbox" class="property checkbox" data-optional="false"> <img class="gif" src="images/properties/Safehouse-Heist.png"> High-End Apartment - <span class="misc location">Eclipse Towers</span> - <span class="cash">$373,000 to $1,100,000</span></h2>
+    
+        <h2 class="section-with-note"><input type="checkbox" class="property checkbox" data-optional="false" onchange="toggleRenovations(this)"> <img class="gif" src="images/properties/Office-colors.gif"> Office - <span class="misc location">Maze Bank West or Maze Bank Tower</span> - <span class="cash">$1,000,000 to $4,000,000</span></h2>
+        <div class="renovations">
+            <h3 style="color: yellow; margin-bottom: 7px;">See Note 1 <input type="button" onclick="scrollAndHighlight('note-1')" value="Scroll down"></h3>
+            <p><input type="checkbox" class="small checkbox" data-optional="true" disabled> Gun Locker <span class="misc">(Optional)</span> - <span class="cash">$520,000</span></p>
+            <p><input type="checkbox" class="small checkbox" data-optional="true" disabled> Safe <span class="misc">(Optional)</span> - <span class="cash">$335,000</span></p>
+            <p><input type="checkbox" class="small checkbox" data-optional="false" disabled> Accommodation - <span class="cash">$795,000</span></p>
+        </div>
+
+        <h2 class="section-with-note"><input type="checkbox" class="property checkbox" data-optional="true" onchange="toggleRenovations(this)"> <img class="gif" src="images/properties/Garage.png"> Office Garage <span class="misc">(Optional)</span> - <span class="cash">$1,150,000 to $2,050,000</span></h2>
+        <div class="renovations">
+            <p><input type="checkbox" class="small checkbox" data-optional="true" disabled> 2nd Garage Floor <span class="misc">(Optional)</span> - <span class="cash">$855,000 to $1,755,000</span></p>
+            <p><input type="checkbox" class="small checkbox" data-optional="true" disabled> 3rd Garage Floor <span class="misc">(Optional)</span> - <span class="cash">$745,000 to $1,645,000</span></p>
+            <p><input type="checkbox" class="small checkbox" data-optional="true" disabled> Custom Auto Shop - <span class="misc">Any Style</span> - <span class="cash">$900,000 to $1,450,000</span></p>
+        </div>
+
+        <h2 class="section"><input type="checkbox" class="property checkbox" data-optional="false" onchange="toggleRenovations(this)"> <img class="gif" src="images/properties/Agency-colors.gif"> Agency - <span class="misc location">Little Seoul or Hawick</span> - <span class="cash">$2,010,000 to $2,830,000</span></h2>
+        <div class="renovations">
+            <p><input type="checkbox" class="small checkbox" data-optional="false" disabled> Armory - <span class="cash">$720,000</span></p>
+            <p><input type="checkbox" class="small checkbox" data-optional="false" disabled> Accommodation - <span class="cash">$275,000</span></p>
+            <p><input type="checkbox" class="small checkbox" data-optional="false" disabled> Vehicle Workshop - <span class="cash">$800,000</span></p>
+        </div>
+
+        <h2 class="section"><input type="checkbox" class="property checkbox" data-optional="true" onchange="toggleRenovations(this)"> <img src="images/properties/GarmentFactory.png"> Garment Factory <span class="misc">(Optional)</span> - <span class="cash">$2,350,000</span></h2>
+
+        <h2 class="section"><input type="checkbox" class="property checkbox" data-optional="true" onchange="toggleRenovations(this)"> <img src="images/properties/McKenzieHangar.png"> McKenzie Field Hangar <span class="misc">(Optional)</span> - <span class="cash">$1,475,000</span></h2>
+
+        <h2 class="section"><input type="checkbox" class="property checkbox" data-optional="false" onchange="toggleRenovations(this)"> <img class="gif" src="images/service-vehicles/Kosatka.png"> Kosatka - <span class="cash">$2,200,000</span></h2>
+        <div class="renovations">
+            <p><input type="checkbox" class="small checkbox" data-optional="true" disabled> Sonar Station <span class="misc">(Optional)</span> - <span class="cash">$1,200,000</span></p>
+            <p><input type="checkbox" class="small checkbox" data-optional="true" disabled> Guided Missiles <span class="misc">(Optional)</span> - <span class="cash">$1,900,000</span></p>
+            <p><input type="checkbox" class="small checkbox" data-optional="true" disabled> Weapon Workshop <span class="misc">(Optional)</span> - <span class="cash">$350,000</span></p>
+            <p><input type="checkbox" class="small checkbox" data-optional="false" disabled> <img src="images/vehicles/Sparrow.png" class="gif"> Sparrow w/ Missiles and Flares - <span class="cash">$2,165,000</span></p>
+        </div>
+
+        <h2 class="section"><input type="checkbox" class="property checkbox" data-optional="false" onchange="toggleRenovations(this)"> <img class="gif" src="images/service-vehicles/Terrorbyte.png"> Terrorbyte - <span class="cash">$1,375,000</span></h2>
+        <div class="renovations">
+            <p><input type="checkbox" class="small checkbox" data-optional="true" disabled> Turret Station <span class="misc">(Optional)</span> - <span class="cash">$297,000</span></p>
+            <p><input type="checkbox" class="small checkbox" data-optional="true" disabled> Drone Station <span class="misc">(Optional)</span> - <span class="cash">$815,000</span></p>
+            <p><input type="checkbox" class="small checkbox" data-optional="true" disabled> Weapon Workshop <span class="misc">(Optional)</span> - <span class="cash">$245,000</span></p>
+            <p><input type="checkbox" class="small checkbox" data-optional="false" disabled> Specialized Workshop - <span class="cash">$495,000</span></p>
+        </div>
+
+        <h2 class="section"><input type="checkbox" class="property checkbox" data-optional="false" onchange="toggleRenovations(this)"> <img class="gif" src="images/service-vehicles/Avenger.png"> Avenger - <span class="cash">$3,450,000</span></h2>
+        <div class="renovations">
+            <p><input type="checkbox" class="small checkbox" data-optional="true" disabled> Gun Turret <span class="misc">(Optional)</span> - <span class="cash">$200,000</span></p>
+            <p><input type="checkbox" class="small checkbox" data-optional="false" disabled> Vehicle Workshop - <span class="cash">$755,000</span></p>
+            <p><input type="checkbox" class="small checkbox" data-optional="true" disabled> Weapon Workshop <span class="misc">(Optional)</span> - <span class="cash">$245,000</span></p>
+            <p><input type="checkbox" class="small checkbox" data-optional="false" disabled> Operations Terminal - <span class="cash">$1,450,000</span></p>
+        </div>
+
+        <h2 class="section"><input type="checkbox" class="property checkbox" data-optional="false" onchange="toggleRenovations(this)"> <img class="gif" src="images/service-vehicles/MobileOperationsCenter.png"> Mobile Operations Center - <span class="cash">$1,225,000</span></h2>
+        <div class="renovations">
+            <p><input type="checkbox" class="small checkbox" data-optional="true" disabled> Hauler Custom <span class="misc">(Optional)</span> - <span class="cash">Extra $175,000</span></p>
+            <p><input type="checkbox" class="small checkbox" data-optional="false" disabled> Bay 1: Command Center - <span class="cash">$320,000</span></p>
+            <p><input type="checkbox" class="small checkbox" data-optional="false" disabled> Bay 2: Weapon and Vehicle Workshop - <span class="cash">$955,000</span></p>
+        </div>
+
+        <h2 class="section"><input type="checkbox" class="property checkbox" data-optional="true" onchange="toggleRenovations(this)"> <img class="gif" src="images/service-vehicles/GalaxySuperYacht.png"> Galaxy Super Yacht <span class="misc">(Optional)</span> - <span class="cash">$6,000,000</span></h2>
+        <div class="renovations">
+            <p><input type="checkbox" class="small checkbox" data-optional="true" disabled> Aquarius Model <span class="misc">(Optional)</span> - <span class="cash">Extra $2,000,000</span></p>
+        </div>
+
+        <h1 style="margin-bottom: 7px;">MC Businesses</h1>
+        <h3 style="margin-bottom: 21.440px;"><i>Buy these in order.</i></h3>
+
+        <h2 class="section"><input type="checkbox" class="property checkbox" data-optional="false" onchange="toggleRenovations(this)"> <img class="gif" src="images/properties/CocaineLockup-colors.gif"> Cocaine Lockup - <span class="misc location">Alamo Sea</span> - <span class="cash">$975,000</span></h2>
+        <div class="renovations">
+            <p><input type="checkbox" class="small checkbox" data-optional="false" disabled> All Upgrades (bought in The Open Road) - <span class="cash">$1,895,000</span></p>
+        </div>
+
+        <h2 class="section-with-note"><input type="checkbox" class="property checkbox" data-optional="false" onchange="toggleRenovations(this)"> <img class="gif" src="images/properties/CounterfeitCashFactory-colors.gif"> Counterfeit Cash Factory - <span class="misc location">Grand Senora</span> - <span class="cash">$845,000</span></h2>
+        <div class="renovations">
+            <h3 style="color: yellow; margin-bottom: 7px;">See Note 1 <input type="button" onclick="scrollAndHighlight('note-1')" value="Scroll down"></h3>
+            <p><input type="checkbox" class="small checkbox" data-optional="false" disabled> All Upgrades (bought in The Open Road) - <span class="cash">$1,609,000</span></p>
+        </div>
+
+        <h2 class="section"><input type="checkbox" class="property checkbox" data-optional="false" onchange="toggleRenovations(this)"> <img class="gif" src="images/properties/MethamphetamineLab-colors.gif"> Methamphetamine Lab - <span class="misc location">Grand Senora</span> - <span class="cash">$910,000</span></h2>
+        <div class="renovations">
+            <p><input type="checkbox" class="small checkbox" data-optional="false" disabled> All Upgrades (bought in The Open Road) - <span class="cash">$1,944,500</span></p>
+        </div>
+
+        <h2 class="section"><input type="checkbox" class="property checkbox" data-optional="false" onchange="toggleRenovations(this)"> <img class="gif" src="images/properties/WeedFarm-colors.gif"> Weed Farm - <span class="misc location">San Chianski</span> - <span class="cash">$715,000</span></h2>
+        <div class="renovations">
+            <p><input type="checkbox" class="small checkbox" data-optional="false" disabled> All Upgrades (bought in The Open Road) - <span class="cash">$1,576,500</span></p>
+        </div>
+
+        <h2 class="section"><input type="checkbox" class="property checkbox" data-optional="false" onchange="toggleRenovations(this)"> <img class="gif" src="images/properties/DocumentForgeryOffice-colors.gif"> Document Forgery Office - <span class="misc location">Grapeseed</span> - <span class="cash">$650,000</span></h2>
+        <div class="renovations">
+            <p><input type="checkbox" class="small checkbox" data-optional="false" disabled> All Upgrades (bought in The Open Road) - <span class="cash">$1,030,000</span></p>
+        </div>
+
+        <h1>Vehicles</h1>
+        <h2 style="margin-bottom: 7px;">Warstock Cache & Carry</h2>
+        <p><input type="checkbox" class="small checkbox" data-optional="false"> <img src="images/vehicles/PersonalVehicle.png" class="gif"> Gauntlet Interceptor - <span class="cash">$4,065,000 to $5,420,000</span></p>
+        <p><input type="checkbox" class="small checkbox" data-optional="false"> <img src="images/vehicles/Raiju.png" class="gif"> F-160 Raiju - <span class="cash">$5,141,000 to $6,855,000</span></p>
+        <p><input type="checkbox" class="small checkbox" data-optional="false"> <img src="images/vehicles/AcidLab.png" class="gif"> Acid Lab - <span class="cash">$750,000</span> - <span class="see-note">See Note 2 <input type="button" onclick="scrollAndHighlight('note-2')" value="Scroll down"></p>
+        <p><input type="checkbox" class="small checkbox" data-optional="false"> <img src="images/vehicles/Toreador.png" class="gif"> Toreador - <span class="cash">$4,250,000</span></p>
+        <p><input type="checkbox" class="small checkbox" data-optional="false"> <img src="images/vehicles/OppressorMkII.png" class="gif"> Oppressor Mk II - <span class="cash">$6,000,000 to $8,000,000</span></p>
+        <p><input type="checkbox" class="small checkbox" data-optional="true"> <img src="images/vehicles/Strikeforce.png" class="gif"> B-11 Strikeforce <span class="misc">(Optional)</span> - <span class="cash">$3,800,000</span></p>
+        <p><input type="checkbox" class="small checkbox" data-optional="true"> <img src="images/vehicles/Khanjali.png" class="gif"> TM-02 Khanjali <span class="misc">(Optional)</span> - <span class="cash">$2,895,000 to $3,850,350</span></p>
+        <p><input type="checkbox" class="small checkbox" data-optional="true"> <img src="images/vehicles/Pyro.png" class="gif"> Pyro <span class="misc">(Optional)</span> - <span class="cash">$3,350,000 to $4,455,500</span></p>
+        <p><input type="checkbox" class="small checkbox" data-optional="false"> <img src="images/vehicles/Cargobob.png" class="gif"> Cargobob - <span class="cash">$1,790,000</span></p>
+        <p><input type="checkbox" class="small checkbox" data-optional="false"> <img src="images/vehicles/Helicopter.png" class="gif"> Buzzard Attack Chopper - <span class="cash">$1,750,000</span></p>
+        <p><input type="checkbox" class="small checkbox" data-optional="false"> <img src="images/vehicles/PersonalVehicle.png" class="gif"> Duke O' Death - <span class="cash">FREE</span></p>
+
+        <h2 class="section">Legendary Motorsports</h2>
+        <p><input type="checkbox" class="small checkbox" data-optional="false"> <img id="fclinton" src="images/other/FClintonLogoDark.png" class="gif"> Any Imani Tech Vehicle - <span class="cash">$1,650,000 to $3,750,000</span> - <span class="see-note">See Note 3 <input type="button" onclick="scrollAndHighlight('note-3')" value="Scroll down"></span></p>
+
+        <h2 class="section">Southern San Andreas Super Autos</h2>
+        <p><input type="checkbox" class="small checkbox" data-optional="false"> <img src="images/vehicles/PersonalVehicle.png" class="gif"> Karin Kuruma (Armored) - <span class="cash">$525,000 to $698,250</span></p>
+        <p><input type="checkbox" class="small checkbox" data-optional="false"> <img id="fclinton" src="images/other/FClintonLogoDark.png" class="gif"> Any Imani Tech Vehicle - <span class="cash">$1,465,000 to $2,150,000</span></p>
+
+        <h2 class="section">Notes</h2>
+        <p id="note-1" class="notes-list"><b>1</b> - One of the locations of this property is <span class="cash">FREE</span> if you own the Criminal Enterprise Starter Pack.</p>
+        <p id="note-2" class="notes-list"><b>2</b> - You can buy a Brickade 6x6 for <span class="cash">$1,450,000</span> on Warstock, or you can obtain it by completing all the First Dose missions. To set it up as an Acid Lab, it costs <span class="cash">$750,000</span>.</p>
+        <p id="note-3"><b>3</b> - The Ocelot Virtue can be modified with Imani Tech. You get it as a prize for completing every Last Dose mission.</p>
+        <div class="progress-container">
+            <div class="progress-bar-container">
+                <div class="progress-bar" id="progress-bar"></div>
+            </div>
+            <div class="progress-text">
+                <div class="bold">Progress</div>
+                <div class="percentage" id="percentage">0.00% done</div>
+                <label>
+                    <input type="checkbox" id="optional-items"> Include Optional Items
+                </label>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
