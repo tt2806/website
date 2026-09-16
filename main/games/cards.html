@@ -3,204 +3,291 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Thiago T.">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
+    <meta name="referrer" content="origin">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="TT's Websites">
+    <meta name="application-name" content="TT's Websites">
+    <meta name="msapplication-tooltip" content="Thiago T.">
+    <meta name="msapplication-starturl" content="https://main-tt.netlify.com">
+    <meta name="msapplication-TileImage" content="../../images/favicon.ico">
+    <meta name="msapplication-TileColor" content="#000">
+    <meta name="msapplication-navbutton-color" content="#000">
+    <meta name="theme-color" content="#000">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://main-tt.netlify.com">
+    <meta property="og:site_name" content="TT's Websites">
+    <meta property="og:title" content="TT's Websites">
+    <meta property="og:image" content="../../images/favicon.ico">
+    <link rel="image_src" href="../../images/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="../../images/favicon.ico">
+    <link rel="preload" href="../styles.css" as="style">
     <link rel="stylesheet" href="../styles.css">
+    <link rel="preload" href="museo-sans-700.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="museo-sans-700.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <!--[if lt IE 9]><script src="/assets/js/libs/html5shiv.3.7.3.js"></script><![endif]-->
     <link rel="icon" type="image/x-icon" href="../../images/favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js" defer></script>
-    <title>TT's Creations</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>TT's Unblocked</title>
 </head>
 <body>
-    <header class="site-header">
-        <div class="brand">
-            <img src="../../images/newlogo-tt.png" alt="TT logo">
-            <span>thiago's creations</span>
+    <header class="gradient">
+        <div class="title">
+            <h1 class="notranslate">thiago's games</h1>
         </div>
     </header>
+    <canvas class="surface disabled"></canvas>
+    <div class="neave">
+        <img src="../../images/other/newlogo-tt.png" alt="logo">
+    </div>
     <main>
-        <section class="games-section">
-            <div class="games-header">
-                <h2 class="category-header"><i class="bi bi-suit-spade-fill"></i> Cards</h2>
-            </div>
-            <section class="games-grid">
-                <article class="game-card">
-                    <a href="https://play.famobi.com/crossover-21" target="_blank">
+        <ul>
+            <h2 class="center" style="margin-bottom: 20px;"><i class="bi bi-suit-spade-fill"></i> CARDS</h2>
+            <li>
+                <a href="https://play.famobi.com/crossover-21" target="_blank">
+                    <div class="icon">
                         <img src="../../images/cards/Crossover21Teaser.jpg">
-                        <h3>Crossover 21</h3>
-                    </a>
-                </article>
-                <article class="game-card">
-                    <a href="https://play.famobi.com/pirate-cards" target="_blank">
+                    </div>
+                    <div class="text">
+                        <h2 class="notranslate">Crossover 21</h2>
+                    </div>
+                </a>
+            </li><li>
+                <a href="https://play.famobi.com/pirate-cards" target="_blank">
+                    <div class="icon">
                         <img src="../../images/cards/PirateCardsTeaser.jpg">
-                        <h3>Pirate Cards</h3>
-                    </a>
-                </article>
-                <article class="game-card">
-                    <a href="https://play.famobi.com/solitaire-legend" target="_blank">
+                    </div>
+                    <div class="text">
+                        <h2 class="notranslate">Pirate Cards</h2>
+                    </div>
+                </a>
+            </li><li>
+                <a href="https://play.famobi.com/solitaire-legend" target="_blank">
+                    <div class="icon">
                         <img src="../../images/cards/SolitaireLegendTeaser.jpg">
-                        <h3>Solitaire Legend</h3>
-                    </a>
-                </article>
-                <article class="game-card">
-                    <a href="https://play.famobi.com/mafia-poker" target="_blank">
+                    </div>
+                    <div class="text">
+                        <h2 class="notranslate">Solitaire Legend</h2>
+                    </div>
+                </a>
+            </li><li>
+                <a href="https://play.famobi.com/mafia-poker" target="_blank">
+                    <div class="icon">
                         <img src="../../images/cards/MafiaPokerTeaser.jpg">
-                        <h3>Mafia Poker</h3>
-                    </a>
-                </article>
-                <article class="game-card">
-                    <a href="https://play.famobi.com/solitaire-classic-christmas" target="_blank">
+                    </div>
+                    <div class="text">
+                        <h2 class="notranslate">Mafia Poker</h2>
+                    </div>
+                </a>
+            </li><li>
+                <a href="https://play.famobi.com/solitaire-classic-christmas" target="_blank">
+                    <div class="icon">
                         <img src="../../images/cards/SolitaireClassicChristmasTeaser.jpg">
-                        <h3>Solitaire Classic Christmas</h3>
-                    </a>
-                </article>
-                <article class="game-card">
-                    <a href="https://play.famobi.com/matching-card-heroes" target="_blank">
+                    </div>
+                    <div class="text">
+                        <h2 class="notranslate">Solitaire Classic Christmas</h2>
+                    </div>
+                </a>
+            </li><li>
+                <a href="https://play.famobi.com/matching-card-heroes" target="_blank">
+                    <div class="icon">
                         <img src="../../images/cards/MatchingCardHeroesTeaser.jpg">
-                        <h3>Matching Card Heroes</h3>
-                    </a>
-                </article>
-                <article class="game-card">
-                    <a href="https://play.famobi.com/kitten-match" target="_blank">
+                    </div>
+                    <div class="text">
+                        <h2 class="notranslate">Matching Card Heroes</h2>
+                    </div>
+                </a>
+            </li><li>
+                <a href="https://play.famobi.com/kitten-match" target="_blank">
+                    <div class="icon">
                         <img src="../../images/cards/KittenMatchTeaser.jpg">
-                        <h3>Kitten Match</h3>
-                    </a>
-                </article>
-                <article class="game-card">
-                    <a href="https://play.famobi.com/3d-solitaire" target="_blank">
+                    </div>
+                    <div class="text">
+                        <h2 class="notranslate">Kitten Match</h2>
+                    </div>
+                </a>
+            </li><li>
+                <a href="https://play.famobi.com/3d-solitaire" target="_blank">
+                    <div class="icon">
                         <img src="../../images/cards/3dSolitaireTeaser.jpg">
-                        <h3>3D Solitaire</h3>
-                    </a>
-                </article>
-                <article class="game-card">
-                    <a href="https://play.famobi.com/gin-rummy-plus" target="_blank">
+                    </div>
+                    <div class="text">
+                        <h2 class="notranslate">3D Solitaire</h2>
+                    </div>
+                </a>
+            </li><li>
+                <a href="https://play.famobi.com/gin-rummy-plus" target="_blank">
+                    <div class="icon">
                         <img src="../../images/cards/GinRummyPlusTeaser.jpg">
-                        <h3>Gin Rummy Plus</h3>
-                    </a>
-                </article>
-                <article class="game-card">
-                    <a href="https://play.famobi.com/duo-cards" target="_blank">
+                    </div>
+                    <div class="text">
+                        <h2 class="notranslate">Gin Rummy Plus</h2>
+                    </div>
+                </a>
+            </li><li>
+                <a href="https://play.famobi.com/duo-cards" target="_blank">
+                    <div class="icon">
                         <img src="../../images/cards/DuoCardsTeaser.jpg">
-                        <h3>Duo Cards</h3>
-                    </a>
-                </article>
-                <article class="game-card">
-                    <a href="https://play.famobi.com/blackjack-bet" target="_blank">
+                    </div>
+                    <div class="text">
+                        <h2 class="notranslate">Duo Cards</h2>
+                    </div>
+                </a>
+            </li><li>
+                <a href="https://play.famobi.com/blackjack-bet" target="_blank">
+                    <div class="icon">
                         <img src="../../images/cards/BlackJackBetTeaser.jpg">
-                        <h3>Blackjack Bet</h3>
-                    </a>
-                </article>
-                <article class="game-card">
-                    <a href="https://play.famobi.com/solitaire-klondike" target="_blank">
+                    </div>
+                    <div class="text">
+                        <h2 class="notranslate">Blackjack Bet</h2>
+                    </div>
+                </a>
+            </li><li>
+                <a href="https://play.famobi.com/solitaire-klondike" target="_blank">
+                    <div class="icon">
                         <img src="../../images/cards/SolitaireKlondikeTeaser.jpg">
-                        <h3>Solitaire Klondike</h3>
-                    </a>
-                </article>
-                <article class="game-card">
-                    <a href="https://play.famobi.com/freecell-solitaire-classic" target="_blank">
+                    </div>
+                    <div class="text">
+                        <h2 class="notranslate">Solitaire Klondike</h2>
+                    </div>
+                </a>
+            </li><li>
+                <a href="https://play.famobi.com/freecell-solitaire-classic" target="_blank">
+                    <div class="icon">
                         <img src="../../images/cards/FreeCellSolitaireClassicTeaser.jpg">
-                        <h3>FreeCell Solitaire Classic</h3>
-                    </a>
-                </article>
-                <article class="game-card">
-                    <a href="https://play.famobi.com/tri-peaks-solitaire-classic" target="_blank">
+                    </div>
+                    <div class="text">
+                        <h2 class="notranslate">FreeCell Solitaire Classic</h2>
+                    </div>
+                </a>
+            </li><li>
+                <a href="https://play.famobi.com/tri-peaks-solitaire-classic" target="_blank">
+                    <div class="icon">
                         <img src="../../images/cards/TriPeaksSolitaireClassicTeaser.jpg">
-                        <h3>Tri Peaks Solitaire Classic</h3>
-                    </a>
-                </article>
-                <article class="game-card">
-                    <a href="https://play.famobi.com/kk-tri-towers-solitaire" target="_blank">
+                    </div>
+                    <div class="text">
+                        <h2 class="notranslate">Tri Peaks Solitaire Classic</h2>
+                    </div>
+                </a>
+            </li><li>
+                <a href="https://play.famobi.com/kk-tri-towers-solitaire" target="_blank">
+                    <div class="icon">
                         <img src="../../images/cards/KkTriTowersTeaser.jpg">
-                        <h3>Kiba & Kumba: Tri Towers Solitaire</h3>
-                    </a>
-                </article>
-                <article class="game-card">
-                    <a href="https://play.famobi.com/spider-solitaire-classic" target="_blank">
+                    </div>
+                    <div class="text">
+                        <h2 class="notranslate">Kiba & Kumba: Tri Towers Solitaire</h2>
+                    </div>
+                </a>
+            </li><li>
+                <a href="https://play.famobi.com/spider-solitaire-classic" target="_blank">
+                    <div class="icon">
                         <img src="../../images/cards/SpiderSolitaireClassicTeaser.jpg">
-                        <h3>Spider Solitaire Classic</h3>
-                    </a>
-                </article>
-                <article class="game-card">
-                    <a href="https://play.famobi.com/western-solitaire" target="_blank">
+                    </div>
+                    <div class="text">
+                        <h2 class="notranslate">Spider Solitaire Classic</h2>
+                    </div>
+                </a>
+            </li><li>
+                <a href="https://play.famobi.com/western-solitaire" target="_blank">
+                    <div class="icon">
                         <img src="../../images/cards/WesternSolitaireTeaser.jpg">
-                        <h3>Western Solitaire</h3>
-                    </a>
-                </article>
-                <article class="game-card">
-                    <a href="https://play.famobi.com/solitaire-master" target="_blank">
+                    </div>
+                    <div class="text">
+                        <h2 class="notranslate">Western Solitaire</h2>
+                    </div>
+                </a>
+            </li><li>
+                <a href="https://play.famobi.com/solitaire-master" target="_blank">
+                    <div class="icon">
                         <img src="../../images/cards/SolitaireMasterTeaser.jpg">
-                        <h3>Solitaire Master</h3>
-                    </a>
-                </article>
-                <article class="game-card">
-                    <a href="https://play.famobi.com/solitaire-classic-easter" target="_blank">
+                    </div>
+                    <div class="text">
+                        <h2 class="notranslate">Solitaire Master</h2>
+                    </div>
+                </a>
+            </li><li>
+                <a href="https://play.famobi.com/solitaire-classic-easter" target="_blank">
+                    <div class="icon">
                         <img src="../../images/cards/SolitaireClassicEaster_Teaser.jpg">
-                        <h3>Solitaire Classic Easter</h3>
-                    </a>
-                </article>
-                <article class="game-card">
-                    <a href="https://play.famobi.com/easter-card-match" target="_blank">
+                    </div>
+                    <div class="text">
+                        <h2 class="notranslate">Solitaire Classic Easter</h2>
+                    </div>
+                </a>
+            </li><li>
+                <a href="https://play.famobi.com/easter-card-match" target="_blank">
+                    <div class="icon">
                         <img src="../../images/cards/EasterCardMatchTeaser.jpg">
-                        <h3>Easter Card Match</h3>
-                    </a>
-                </article>
-                <article class="game-card">
-                    <a href="https://play.famobi.com/gin-rummy-classic" target="_blank">
+                    </div>
+                    <div class="text">
+                        <h2 class="notranslate">Easter Card Match</h2>
+                    </div>
+                </a>
+            </li><li>
+                <a href="https://play.famobi.com/gin-rummy-classic" target="_blank">
+                    <div class="icon">
                         <img src="../../images/cards/GinRummyClassicTeaser.jpg">
-                        <h3>Gin Rummy Classic</h3>
-                    </a>
-                </article>
-                <article class="game-card">
-                    <a href="https://play.famobi.com/solitaire-classic" target="_blank">
+                    </div>
+                    <div class="text">
+                        <h2 class="notranslate">Gin Rummy Classic</h2>
+                    </div>
+                </a>
+            </li><li>
+                <a href="https://play.famobi.com/solitaire-classic" target="_blank">
+                    <div class="icon">
                         <img src="../../images/cards/SolitaireClassicTeaser.jpg">
-                        <h3>Solitaire Classic</h3>
-                    </a>
-                </article>
-                <article class="game-card">
-                    <a href="https://play.famobi.com/fairy-cards" target="_blank">
+                    </div>
+                    <div class="text">
+                        <h2 class="notranslate">Solitaire Classic</h2>
+                    </div>
+                </a>
+            </li><li>
+                <a href="https://play.famobi.com/fairy-cards" target="_blank">
+                    <div class="icon">
                         <img src="../../images/cards/FairyCardsTeaser.jpg">
-                        <h3>Fairy Cards</h3>
-                    </a>
-                </article>
-                <article class="game-card">
-                    <a href="https://play.famobi.com/spider-solitaire" target="_blank">
+                    </div>
+                    <div class="text">
+                        <h2 class="notranslate">Fairy Cards</h2>
+                    </div>
+                </a>
+            </li><li>
+                <a href="https://play.famobi.com/spider-solitaire" target="_blank">
+                    <div class="icon">
                         <img src="../../images/cards/SpiderSolitaireTeaser.jpg">
-                        <h3>Spider Solitaire</h3>
-                    </a>
-                </article>
-                <article class="game-card">
-                    <a href="https://play.famobi.com/klondike-solitaire" target="_blank">
+                    </div>
+                    <div class="text">
+                        <h2 class="notranslate">Spider Solitaire</h2>
+                    </div>
+                </a>
+            </li><li>
+                <a href="https://play.famobi.com/klondike-solitaire" target="_blank">
+                    <div class="icon">
                         <img src="../../images/cards/KlondikeSolitaireTeaser.jpg">
-                        <h3>Klondike Solitaire</h3>
-                    </a>
-                </article>
-                <article class="game-card">
-                    <a href="https://play.famobi.com/wild-west-solitaire" target="_blank">
+                    </div>
+                    <div class="text">
+                        <h2 class="notranslate">Klondike Solitaire</h2>
+                    </div>
+                </a>
+            </li><li>
+                <a href="https://play.famobi.com/wild-west-solitaire" target="_blank">
+                    <div class="icon">
                         <img src="../../images/cards/WildWestSolitaireTeaser.jpg">
-                        <h3>Wild West Solitaire</h3>
-                    </a>
-                </article>
-            </section>
-        </section>
-        <div class="tools-btn-container">
-            <a href="../../" class="tools-btn">
-                <i class="fa-solid fa-circle-arrow-left"></i> Back
-            </a>
+                    </div>
+                    <div class="text">
+                        <h2 class="notranslate">Wild West Solitaire</h2>
+                    </div>
+                </a>
+            </li>
+        </ul>
+        <div style="text-align: center;" class="tools-btn-container">
+            <button class="backbtn-done center" onclick="window.location.href='../../'"><i class="bi bi-arrow-left-circle"></i> BACK</button>
         </div>
+        <a class="license-link" rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" style="margin-top: 65px;"><img class="license" alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><p class="license-txt text">TT's Creations is licensed under a CC BY-NC-SA 4.0 International License.</p>
     </main>
-    <footer class="site-footer">
-        <div class="footer-buttons">
-            <a href="https://github.com/tt2806/website/tree/main" class="footer-btn"><i class="fa-brands fa-github"></i> Source Code</a>
-            <a href="https://www.tiktok.com/@_tt2806" class="footer-btn"><i class="fa-brands fa-tiktok"></i> TikTok</a>
-        </div>
-
-        <div class="footer-extras">
-            <p>&copy; 2022-2026 TT's Creations</p>
-            <button class="donate-btn"><i class="fa-solid fa-hand-holding-dollar"></i><a href="https://cash.app/$tt2806" class="donate-btn"> Donate</a></button>
-        </div>
-    </footer>
 </body>
-</html>
+</html> 
